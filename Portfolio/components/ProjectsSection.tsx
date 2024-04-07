@@ -46,7 +46,7 @@ const projects = [
     description:
       "Website built to track the waivers of gymnasts. The front-end was built with MUI, CSS, and HTML. The back-end was built with JS, as well as AWS DynamoDB for storage and Google Oauth 2.0 for user authentication/security. The website was made using React.",
     image: "/Etude.png",
-    github: "https://github.com/samavramov",
+    github: "https://github.com/samavramov/Etude-Website",
     link:"",
     skills: [
       {
