@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
 import { IoMdMenu, IoMdClose } from "react-icons/io"
+import { TypeAnimation } from "react-type-animation"
 
 interface NavItem {
   label: string
@@ -39,7 +40,21 @@ export default function Navbar() {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <Link to="home">
               <div className="container flex items-center space-x-2">
-                <h2 className="text-2xl font-bold">Sam Avramov</h2>
+                <h2 className="text-2xl font-bold">
+                <TypeAnimation
+                 sequence={[
+                  // Same substring at the start will only be typed out once, initially
+                  "samAvramov();",
+                 1000,
+                 "samAvramov();",
+                 1000,
+                ]}
+                
+                   speed={1}
+                   repeat={Infinity}
+                   cursor={false}
+               />
+</h2>
               </div>
             </Link>
             <div className="md:hidden">

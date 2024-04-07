@@ -79,6 +79,33 @@ const backend = [
     image: "/google.svg"
   },
 ]
+const tools = [
+  {
+    skill: "Git",
+    link: "https://html.com/",
+    image: "/git.svg"
+  },
+  {
+    skill: "Github",
+    link: "https://www.w3schools.com/css/css_intro.asp/",
+    image: "/gith.svg"
+  },
+  {
+    skill: "Docker", link: "https://www.javascript.com/",
+    image: "/docker.svg"
+  },
+  {
+    skill: "VS Code", link: "https://www.typescriptlang.org/",
+    image: "/vs.svg"
+  },
+
+  {
+    skill: "IntelliJ IDEA", link: "https://react.dev/",
+    image: "/intellij.svg"
+  },
+ 
+
+]
 const AboutSection = () => {
   return (
     <section id="about">
@@ -168,6 +195,24 @@ const AboutSection = () => {
               })}
             </div>
             <br></br>
+            <h1 className="text-2xl font-bold mb-6">Version Control, IDEs, & Tools </h1>
+            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
+              {tools.map((item, idx) => {
+                return (
+                  <a
+                    key={idx}
+                    href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold flex items-center"
+                  >
+                    <Image src={item.image} alt={item.skill} width={25} height={25} className="mr-2" />
+                    <span>{item.skill}</span>
+                  </a>
+                )
+                
+              })}
+            </div>
           </div>
         </div>
         <br></br>
