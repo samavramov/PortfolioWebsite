@@ -82,25 +82,25 @@ const backend = [
 const tools = [
   {
     skill: "Git",
-    link: "https://html.com/",
+    link: "https://git-scm.com/",
     image: "/git.svg"
   },
   {
     skill: "Github",
-    link: "https://www.w3schools.com/css/css_intro.asp/",
+    link: "https://github.com/samavramov",
     image: "/gith.svg"
   },
   {
-    skill: "Docker", link: "https://www.javascript.com/",
+    skill: "Docker", link: "https://www.docker.com/",
     image: "/docker.svg"
   },
   {
-    skill: "VS Code", link: "https://www.typescriptlang.org/",
+    skill: "VS Code", link: "https://code.visualstudio.com/",
     image: "/vs.svg"
   },
 
   {
-    skill: "IntelliJ IDEA", link: "https://react.dev/",
+    skill: "IntelliJ IDEA", link: "https://www.jetbrains.com/idea/?var=1",
     image: "/intellij.svg"
   },
  
@@ -158,7 +158,7 @@ const AboutSection = () => {
             
           </div>
           <div className="text-center md:w-1/2 md:text-left">
-            <h1 className="text-2xl font-bold mb-6">Front-end Languages & Libraries</h1>
+            <h1 className="text-2xl font-bold mb-6">Front-end Languages, Libraries, & Frameworks</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {skills.map((item, idx) => {
                 return (
@@ -195,7 +195,7 @@ const AboutSection = () => {
               })}
             </div>
             <br></br>
-            <h1 className="text-2xl font-bold mb-6">Version Control, IDEs, & Tools </h1>
+            <h1 className="text-2xl font-bold mb-6">Version Control, Platforms, & IDEs </h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {tools.map((item, idx) => {
                 return (
