@@ -34,7 +34,16 @@ const skills = [
     skill: "TypeScript", link: "https://www.typescriptlang.org/",
     image: "/ts.svg"
   },
-
+  {
+    skill: "Flutter",
+    link: "https://flutter.dev/",
+    image: "/flutter.svg"
+  },
+  {
+    skill: "Dart",
+    link: "https://dart.dev/",
+    image: "/dart.svg"
+  },
   {
     skill: "React", link: "https://react.dev/",
     image: "/react.svg"
@@ -48,6 +57,10 @@ const skills = [
     image: "/tailwind.svg"
   },
   {
+    skill: "Material Design", link: "https://m3.material.io/",
+    image: "/md.svg"
+  },
+  {
     skill: "Material UI", link: "https://mui.com/",
     image: "/mui.svg"
   },
@@ -58,6 +71,14 @@ const backend = [
   {
     skill: "Python", link: "https://www.python.org/",
     image: "/python.svg"
+  },
+  {
+    skill: "C++", link: "https://cplusplus.com/",
+    image: "/C++.svg"
+  },
+  {
+    skill: "Ruby", link: "https://www.ruby-lang.org/en/",
+    image: "/ruby.svg"
   },
   
   {
@@ -103,6 +124,10 @@ const tools = [
     skill: "IntelliJ IDEA", link: "https://www.jetbrains.com/idea/?var=1",
     image: "/intellij.svg"
   },
+  {
+    skill:"CMake", link: "https://cmake.org/",
+    image: "/CMake.svg"
+  }
  
 
 ]

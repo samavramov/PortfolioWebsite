@@ -6,6 +6,38 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
+    name: "Connections ∞",
+    description:
+      "Mobile app meant to resemble the popular New York Times Connections, with infinte levels. Built primarily using Dart with Flutter, as well as C++ and Ruby on the backend. Currently working on implementing APIs and adding numerous levels. Available on the app store by 2025.",
+    image: "/simulator1.png",
+    github: "https://github.com/samavramov/ConnectionsClone",
+    link: "https://github.com/samavramov/ConnectionsClone",
+    skills: [
+      {
+        name: "Dart",
+        link: "https://dart.dev/",
+        image: "/dart.svg"
+      },
+      {
+        name: "Flutter SDK",
+        link: "https://flutter.dev/",
+        image: "/flutter.svg"
+      },
+      {
+        name: "Material Design", link: "https://m3.material.io/",
+        image: "/md.svg"
+      },
+      {
+        name: "Ruby", link: "https://www.ruby-lang.org/en/",
+        image: "/ruby.svg"
+      },
+      {
+        name: "C++", link: "https://cplusplus.com/",
+        image: "/C++.svg"
+      },
+    ],
+  },
+  {
     name: "Personal Website",
     description:
       "Built to showcase my projects using HTML,TSX,and CSS/Tailwind CSS for front-end development. This website is optimized for both web and mobile, and is run using Next.js with React Components",
